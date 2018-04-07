@@ -1,9 +1,0 @@
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\bin\Debug\netcoreapp2.0\CCTUnifor.Logger.deps.json
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\bin\Debug\netcoreapp2.0\CCTUnifor.Logger.dll
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\bin\Debug\netcoreapp2.0\CCTUnifor.Logger.pdb
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.csprojResolveAssemblyReference.cache
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.csproj.CoreCompileInputs.cache
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.AssemblyInfoInputs.cache
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.AssemblyInfo.cs
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.dll
-C:\Users\thiag\Documents\Workspace\Universidade\Logger\CCTUnifor.Logger\CCTUnifor.Logger\obj\Debug\netcoreapp2.0\CCTUnifor.Logger.pdb
