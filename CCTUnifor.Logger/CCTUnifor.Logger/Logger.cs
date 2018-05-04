@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace CCTUnifor.Logger
@@ -8,11 +9,16 @@ namespace CCTUnifor.Logger
         public static string PathToSave { get; set; }
         public static bool IsToPrintInConsole { get; set; } = true;
         public static ConsoleColor ConsoleColorHeader { get; set; } = ConsoleColor.Yellow;
+        public static ICollection<string> HistoryList { get; private set; } = new List<string>();
+        public static string History => string.Join("", HistoryList);
 
         public static void Print(object v)
         {
             if (IsToPrintInConsole)
+            {
+                HistoryList.Add($"{v}");
                 Console.Write(v);
+            }
             if (!string.IsNullOrEmpty(PathToSave))
                 PrintInFile(v);
         }
@@ -23,7 +29,11 @@ namespace CCTUnifor.Logger
                 Console.ForegroundColor = v.Value;
 
             if (IsToPrintInConsole)
+            {
+
+                HistoryList.Add($"{value}\n");
                 Console.WriteLine(value);
+            }
             if (!string.IsNullOrEmpty(PathToSave))
                 PrintInFile(value, true);
 
